@@ -1,0 +1,167 @@
+body{
+    background-color: rgb(252, 225, 229);
+}
+form{
+    border:2px solid gold;
+    width:500px;
+    display:none;
+    background-color: rgb(252, 231, 234);
+    margin-left:25%;
+}
+.form-items{
+    display:block;
+    flex-direction: column;
+    margin-left:20px;
+    padding:10px
+}
+.form-items input{
+    width:300px;
+    height:30px
+}
+.form-items input[type="radio"] {
+    width: auto;
+    height: auto;
+    margin-right: 5px;
+}
+/*.mybutton input{
+    height:15px;
+    padding-right:0;
+}*/
+.form-items button{
+    width:100px;
+    display:flex;
+    margin-left:140px;
+    height:30px;
+    align-items: center;
+    justify-content:center;
+    text-align: center;
+    background-color: rgb(190, 143, 176);
+    border:none;
+    border-radius:8px;
+}
+.main-container{
+    height:auto;
+    background-color: rgb(219, 185, 185);
+    padding-bottom:20px;
+    width:100%;
+}
+.books h2{
+    font-size: 30px;
+    display:flex;
+    margin-left: 20px;
+    padding:20px;
+}
+.book-cards{
+    display:grid;
+    grid-template-columns: 35% 30% 30%;
+    justify-content:space-between;
+    width:auto
+}
+.cards-left{
+    margin-left:30px;  
+}
+.cards-center{
+}
+.cards-right{
+
+}
+.card img{
+    width:190px;
+    height:180px;
+}
+.card{
+    padding:20px;
+    position:relative;
+    display:grid;
+    margin:5px;
+}
+.card-content{
+    display:grid;
+}
+.card-content p{
+    font-size: 30px;
+}
+.card-content button{
+    width:130px;
+    height:40px;
+    border-radius: 8px;
+    margin:0;
+    border:none;
+}
+.read{
+    background-color: rgb(190, 143, 176);
+}
+.not{
+    background-color: rgb(190, 143, 176);
+}
+.wait{
+    background-color: rgb(190, 143, 176);
+}
+.read:hover{
+    background-color: green;
+}
+.not:hover{
+    background-color: red;
+}
+.wait:hover{
+    background-color: orange;
+}
+.header{
+    height:60px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+.icon{
+    font-size: 50px;
+    padding:20px;
+    margin-top:15px;
+}
+.logo{
+    font-size: 30px;
+}
+.footer{
+    height:80px;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    gap:30px;
+}
+.footer button{
+    padding:20px;
+    background-color: rgb(190, 143, 176);
+    border:none;
+    border-radius: 10px;
+}
+.add{
+    margin-left:40%;
+}
+.remove{
+    margin-right: 30px;;
+}
+
+.book-card{
+    margin-top:30px;
+    background-color: aqua;
+    width:350px;
+    background-color:rgb(190, 143, 176) ;
+    border:none;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+}
+.book-card button{
+    background-color: rgb(252, 225, 229);
+    width:100px;
+    height:20px;
+    border:none;
+    border-radius:8px;
+    align-items: center;
+    justify-content: center;
+}
+.card-header{
+    margin-left:20px;
+}
+.card-body{
+    margin-left:100px;
+}
